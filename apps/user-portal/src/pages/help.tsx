@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2019, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+ * Copyright (c) 2020, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
  *
  * WSO2 Inc. licenses this file to you under the Apache License,
  * Version 2.0 (the "License"); you may not use this file except
@@ -16,7 +16,7 @@
  * under the License.
  */
 
-import React from "react";
+import React, { ReactElement } from "react";
 import { useTranslation } from "react-i18next";
 import { DefaultPageLayout } from "../layouts";
 import ReactMarkdown from "react-markdown";
@@ -24,12 +24,12 @@ import ReactMarkdown from "react-markdown";
 /**
  * Privacy page.
  *
- * @return {JSX.Element}
+ * @return {ReactElement}
  */
-export const HelpPage = (): JSX.Element => {
+export const HelpPage = (): ReactElement => {
     const { t, i18n } = useTranslation();
 
-    const Image = (props): JSX.Element => {
+    const Image = (props): ReactElement => {
         return <img { ...props } style={ { maxWidth: "70%" } } />
     };
 
