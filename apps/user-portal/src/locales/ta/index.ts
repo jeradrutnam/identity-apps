@@ -17,4 +17,5 @@
  */
 
 export * from "./common";
+export * from "./doc/help";
 export * from "./views";
