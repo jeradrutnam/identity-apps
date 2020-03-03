@@ -1165,6 +1165,10 @@ export const views: Views = {
             subTitle: "Manage and maintain your applications",
             title: "Applications"
         },
+        help: {
+            subTitle: "",
+            title: "Help"
+        },
         operations: {
             subTitle: "Review operational tasks that requires your approval",
             title: "Operations"

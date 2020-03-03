@@ -1158,8 +1158,12 @@ export const views: Views = {
     },
     pages: {
         applications: {
-            subTitle: "Manage and maintain your applications",
-            title: "Applications"
+            subTitle: "ඔබගේ යෙදුම් කළමනාකරණය කර නඩත්තු කරන්න",
+            title: "යෙදුම්"
+        },
+        help: {
+            subTitle: "",
+            title: "උදව්"
         },
         operations: {
             subTitle:

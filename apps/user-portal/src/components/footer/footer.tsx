@@ -53,6 +53,7 @@ export const AppFooter: React.FunctionComponent<AppFooterProps> = (
                 </Menu.Item>
                 <Menu.Menu position="right">
                     <LanguageSwitcher className="footer-dropdown"/>
+                    <Menu.Item className="footer-link" as={ Link } to="/help">{ t("common:help") }</Menu.Item>
                     <Menu.Item className="footer-link" as={ Link } to="/privacy">{ t("common:privacy") }</Menu.Item>
                 </Menu.Menu>
             </Container>

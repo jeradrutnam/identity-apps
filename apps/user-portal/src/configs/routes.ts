@@ -21,6 +21,7 @@ import * as TokenConstants from "../constants/token-constants";
 import {
     AccountSecurityPage,
     ApplicationsPage,
+    HelpPage,
     LoginErrorPage,
     OperationsPage,
     OverviewPage,
@@ -96,10 +97,19 @@ const ROUTES: Route[] = [
     },
     {
         component: PrivacyPage,
-        icon: "security",
+        icon: null,
         id: "privacy",
         name: "common:privacy",
         path: "/privacy",
+        protected: true,
+        showOnSidePanel: false
+    },
+    {
+        component: HelpPage,
+        icon: null,
+        id: "help",
+        name: "common:help",
+        path: "/help",
         protected: true,
         showOnSidePanel: false
     },

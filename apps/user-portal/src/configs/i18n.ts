@@ -55,7 +55,7 @@ const initOptions = {
         escapeValue: false // not needed for react
     },
     keySeparator: ".",
-    ns: ["common, views"],
+    ns: ["common, views, help"],
     nsSeparator: ":",
     pluralSeparator: "_",
     resources: locales

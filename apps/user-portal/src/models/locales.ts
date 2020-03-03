@@ -740,6 +740,7 @@ export interface Views {
     };
     pages: {
         applications: Page;
+        help: Page;
         operations: Page;
         overview: Page;
         personalInfo: Page;

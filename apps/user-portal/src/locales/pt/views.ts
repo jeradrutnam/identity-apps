@@ -1147,8 +1147,12 @@ export const views: Views = {
     },
     pages: {
         applications: {
-            subTitle: "Manage and maintain your applications",
-            title: "Applications"
+            subTitle: "Gerenciar e manter seus aplicativos",
+            title: "Formulários"
+        },
+        help: {
+            subTitle: "",
+            title: "Socorro"
         },
         operations: {
             subTitle: "Gerenciar e manter tarefas como aprovações pendentes etc.",
