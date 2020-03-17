@@ -305,7 +305,7 @@
         .link {
             color: @primaryColor;
             cursor: pointer;
-            text-weight: bold;
+            font-weight: bold;
         }
     }
 }
