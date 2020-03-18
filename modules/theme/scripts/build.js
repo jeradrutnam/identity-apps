@@ -155,6 +155,20 @@ const createSemanticUICore = () => {
         console.log("node_modules/semantic-ui-less/definitions .less files copied.");
         
         /*
+         * Remove empty definition folders from the copied
+         */
+        const folders = fs.readdirSync(semanticUICoreDefinitions);
+
+        folders.map((folder) => {
+            const folderPath = path.join(semanticUICoreDefinitions, folder);
+            if (fs.readdirSync(folderPath).length === 0) {
+                fs.removeSync(folderPath);
+            }
+        });
+
+        console.log("node_modules/semantic-ui-less/definitions folder cleansed.");
+        
+        /*
          * Copy default theme .variable & .override files from semantic ui less module to src/semantic-ui-core folder
          */
         fs.copySync(path.join(semanticUILessModuleDir, "themes", "default"),
