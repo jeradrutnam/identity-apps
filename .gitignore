@@ -94,6 +94,8 @@ typings/
 .project
 .repository/
 modules/theme/dist
+modules/theme/src/semantic-ui-core/default
+modules/theme/src/semantic-ui-core/definitions
 modules/http/dist
 modules/validation/dist
 modules/forms/dist
