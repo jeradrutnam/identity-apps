@@ -17,6 +17,8 @@ module.exports = {
     },
     rules: {
         "eol-last": "error",
+        "quotes": ["error", "double"],
+        "max-len": ["error", { "code": 120 }],
         "react/jsx-curly-spacing": [2, "always", {
             "allowMultiline": true,
             "spacing": {"objectLiterals": "always"}
@@ -27,6 +29,13 @@ module.exports = {
             files: ["**/*.tsx"],
             rules: {
                 "react/prop-types": "off"
+            }
+        },
+        {
+            files: ["./**/*/build.js", "./**/*/theme.js", "./**/*/index.js"],
+            rules: {
+                "@typescript-eslint/no-var-requires": "off",
+                "@typescript-eslint/explicit-function-return-type": "off"
             }
         }
     ]
