@@ -23,7 +23,7 @@ export * from "./theme";
 export const AlertIcon = require("../dist/lib/themes/default/assets/images/icons/alert-icon.svg");
 export const AppIcon = require("../dist/lib/themes/default/assets/images/icons/app-icon.svg");
 export const ArrowRight = require("../dist/lib/themes/default/assets/images/icons/arrow-right-icon.svg");
-export const BlockedMagnifierIcon = 
+export const BlockedMagnifierIcon =
     require("../dist/lib/themes/default/assets/images/icons/blocked-magnifier-icon.svg");
 export const BoxIcon = require("../dist/lib/themes/default/assets/images/icons/box-icon.svg");
 export const CaretRightIcon = require("../dist/lib/themes/default/assets/images/icons/caret-right-icon.svg");

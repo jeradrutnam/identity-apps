@@ -17,8 +17,8 @@
  *
  */
 
-const less = require('less');
-const path = require('path');
+const less = require("less");
+const path = require("path");
 
 export const Theme = {
     compile: (file, options) => {
@@ -64,4 +64,4 @@ export const Theme = {
             }
         });
     }
-}
+};

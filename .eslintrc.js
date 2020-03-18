@@ -17,8 +17,8 @@ module.exports = {
     },
     rules: {
         "eol-last": "error",
-        "quotes": ["error", "double"],
-        "max-len": ["error", { "code": 120 }],
+        "quotes": ["warning", "double"],
+        "max-len": ["warning", { "code": 120 }],
         "react/jsx-curly-spacing": [2, "always", {
             "allowMultiline": true,
             "spacing": {"objectLiterals": "always"}
